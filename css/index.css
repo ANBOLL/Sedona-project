@@ -132,6 +132,9 @@ body{
     margin-left: 20px;
 }
 .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 64px;
     margin: 0 auto;
     max-width: 1200px;
