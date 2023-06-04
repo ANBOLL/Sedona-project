@@ -404,8 +404,8 @@ a{
     color: #FFFFFF;
 }
 .Frame-36{
-    max-width: 1200px;
-    max-height: 246px;
+    width: 1200px;
+    height: 246px;
     margin: 0 auto;
     background-color: #FFFFFF;
     padding: 64px 0px;
