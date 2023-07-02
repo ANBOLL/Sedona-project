@@ -13,8 +13,10 @@
     src: url('../fonts/ptsans-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 html{
+   
     box-sizing: border-box;
     background-color: rgb(203, 204, 204);
+    margin: 0 auto;
 }
 *, *::before, *::after{
     box-sizing: inherit;
@@ -32,6 +34,9 @@ body{
     line-height: 1.2;
     font-weight: normal;
     color: #000000;
+    width: 1200px;
+    height: 246px;
+    margin: 0 auto;
     
 }
 .header__wrapper, .user-menu, .Frame-4, .header-logo, .favorites{
@@ -39,6 +44,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    
     
 }
 .header__wrapper{
@@ -132,11 +138,13 @@ body{
     margin-left: 20px;
 }
 .hero{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 64px;
     margin: 0 auto;
     max-width: 1200px;
-    height: 767px;
+    height: 777px;
     background-color: #FFFFFF;
 }
 .hero-welcome{
@@ -158,7 +166,7 @@ body{
     align-items: center;
     margin: 0 auto;
     max-width: 1200px;
-    height: 57px;
+    height: 58px;
     margin-top: -57px;
 }
 .welcome-img{
@@ -250,6 +258,7 @@ a{
     color: #FFFFFF;
 }
 .Rectangle{
+
     width: 60px;
     height: 2px;
     background: rgba(255, 255, 255, 0.3);
@@ -274,20 +283,18 @@ a{
     padding: 0px;
     width: 1200px;
     height: 385px;
+    margin: 0 auto;
 }
-.№3{
+.№3,.№4,.№5{
     width: 400px;
     height: 385px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
 }
-.№4{
-    width: 400px;
-    height: 385px;
-}
-.№5{
-    width: 400px;
-    height: 385px;
-}
-.Advantages1, .Advantages3,.Advantages2{
+
+.Advantages1, .Advantages2, .Advantages3{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -587,7 +594,7 @@ a{
     gap: 10px;
     width: 1200px;
     height: 414.86px;
-    background: url(../img/index-background.jpg);/*GIVE ME PHOTO!*/
+    background: url(../img/imgfooter.jpg);
     background-repeat: no-repeat;
     margin: 0 auto;
     }
@@ -764,6 +771,38 @@ address{
     width: 115px;
     height: 33px;
 }
-.logo-html{
+.modal{
+    width: 1280px;
+    height: 3546px;
+    top: 11px;
+    left: 2589px;
+    background-color:#F2F2F2;
+}
+.search_hotel{
+    position: fixed;
+    width: 717px;
+    height: 576px;
+    top: 396px;
+    left: 281px;
+    padding: 64px 70px 64px 70px;
+    border-radius: 30px;
+    background: #FFFFFF;
+}
+.Frame-32{
+    width: 577px;
+    height: 448px;
+    gap: 64px;
+}
+.searchh2{
+    width: 413px;
+    height: 36px;
     
+    text-transform: uppercase;
+
+font-family: PT Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
 }
